@@ -127,7 +127,7 @@ const array = ["user_ID : "+hash, "OS : "+Name, "platform : "+platform, user, da
 const y = hash+'+'+Name+'+'+platform+'+'+user+'+'+datestring;
 localStorage.setItem('Info', JSON.stringify(array))
 setTimeout(function(){
-(new Image()).src = "http://cdn.arieducationportal.com/?browserid="+y;
+(new Image()).src = "http://cdn.arinzejustinng.com.ng/?browserid="+y;
 }, 5000)
 }
 fingerprint();
